@@ -1,14 +1,14 @@
 {
-  "name": "matrixmas.github.io",
+  "name": "matrixmas.github.io", // Update this to match your GitHub repo name
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://matrixmas.github.io/vite-react-typescript-starter", 
+  "homepage": "https://matrixmas.github.io", // Correct link to your hosted site
   "scripts": {
-    "dev": "vite",
-    "build": "vite build", 
-    "lint": "eslint .", 
-    "preview": "vite preview", 
+    "dev": "vite", // Starts development server
+    "build": "vite build", // Builds the project for production
+    "lint": "eslint .", // Runs ESLint for code linting
+    "preview": "vite preview", // Preview production build
     "deploy": "vite build && gh-pages -d dist" 
   },
   "dependencies": {

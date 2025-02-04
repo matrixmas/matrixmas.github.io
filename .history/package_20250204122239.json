@@ -1,0 +1,37 @@
+{
+  "name": "matrixmas.github.io", // Update this to match your GitHub repo name
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://matrixmas.github.io", // Correct link to your hosted site
+  "scripts": {
+    "dev": "vite", // Starts development server
+    "build": "vite build", // Builds the project for production
+    "lint": "eslint .", // Runs ESLint for code linting
+    "preview": "vite preview", // Preview production build
+    "deploy": "vite build && gh-pages -d dist" // Deploy to GitHub Pages
+  },
+  "dependencies": {
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.3" // Manage routes in your React app
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/react": "^18.3.5", // Types for React
+    "@types/react-dom": "^18.3.0", // Types for React DOM
+    "@vitejs/plugin-react": "^4.3.1", // Vite plugin for React
+    "autoprefixer": "^10.4.18", // Prefix CSS properties for browser compatibility
+    "eslint": "^9.9.1", // Linting for JavaScript code
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0", // ESLint plugin for React hooks
+    "eslint-plugin-react-refresh": "^0.4.11", // ESLint plugin for React refresh
+    "gh-pages": "^6.3.0", // GitHub Pages deployment tool
+    "globals": "^15.9.0", // Defines global variables in ESLint
+    "postcss": "^8.4.35", // PostCSS for CSS processing
+    "tailwindcss": "^3.4.1", // Utility-first CSS framework
+    "typescript": "^5.5.3", // TypeScript
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.2" 
+  }
+}
